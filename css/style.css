@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/Gilroy-Regular.woff);
+}
+@font-face {
+    font-family: Gilroybold;
+    src: url(../fonts/Gilroy-Heavy.woff);
+}
+.greenbg{
+    background-color: #75BF7A;
+    ;
+}
+.greencolor{
+    color:#75BF7A;
+}
+.graybg{
+    background-color: #F9F9F9;
+}
+
+.Gilroy{
+    font-family: Gilroy;
+}
+.Gilroybold{
+    font-family: Gilroybold;
+}
+@media screen and (max-width:1900px) and (min-width: 768px) {
+    /* 1st para above circle div  */
+    .widthmedia{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:502px) {
+    .mobilemedia{
+        width: 70%
+    }
+
+    
+}
+@media screen and (max-width:600px)and (min-width:502px) {
+    .mobilemedia{
+        width: 50%
+    }
+    .circlemedia{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width:740px)and (min-width:600px) {
+    .mobilemedia{
+        width: 40%
+    }
+    .circlemedia{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:858px)and (min-width:740px) {
+    .mobilemedia{
+        width: 40%
+    }
+    .circlemedia{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:998px)and (min-width:858px) {
+    .mobilemedia{
+        width: 36%
+    }
+    .circlemedia{
+        width: 50%;
+    }
+    
+}
